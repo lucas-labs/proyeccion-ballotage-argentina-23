@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "elec"
+version = "0.1.0"
+description = ""
+authors = ["Lucas Colombo <lucasncolombo@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.3"
+pandas = "^2.1.1"
+pysankey = "^0.0.1"
+matplotlib = "^3.8.0"
+seaborn = "^0.13.0"
+plotly = "^5.17.0"
+nbformat = "^5.9.2"
+chart-studio = "^1.1.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.25.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
